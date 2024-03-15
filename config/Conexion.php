@@ -31,7 +31,7 @@ if (!function_exists('ejecutarConsulta')) {
     }
 
     //Implememtamos un función para retornar el id de un registro
-    function ejecutarCOnsulta_retornarID($sql)
+    function ejecutarConsulta_retornarID($sql)
     {
         global $conexion;
         $query = $conexion->query($sql);
@@ -41,7 +41,7 @@ if (!function_exists('ejecutarConsulta')) {
     function limpiarCadena($str)
     {
         global $conexion;
-        
+
     }
 
 }
